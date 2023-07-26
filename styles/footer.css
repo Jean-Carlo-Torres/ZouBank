@@ -30,6 +30,10 @@
     color: var(--branco);
 }
 
+.rodape__link:hover {
+    text-decoration: underline;
+}
+
 .rodape__logo {
     margin-top: .6em;
     font-size: 28px;
@@ -47,6 +51,7 @@
     }
 
     .redes-sociais__lista {
-        display: block;
+        display: flex;
+        margin: .5em 4em;
     }
 }

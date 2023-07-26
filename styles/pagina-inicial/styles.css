@@ -45,6 +45,11 @@
     text-align: center;
     padding: .5em 0;
     border-radius: 0px 0px 20px 20px;
+    
+}
+
+.item-servicos__titulo:hover {
+    color: var(--azul-claro);
 }
 
 .item-servicos__imagem {
@@ -80,6 +85,10 @@
     font-size: 18px;
     line-height: 22px;
     padding: 0.5em;
+}
+
+.conta__botao:hover {
+    color: var(--azul-claro);
 }
 
 .beneficios-lista {
@@ -134,6 +143,7 @@
 
     .beneficios-lista__item {
         width: 100%;
+        margin-bottom: 40px;
     }
 
     .conta {
@@ -143,5 +153,49 @@
 
     .conta__titulo {
         padding: 1em 0;
+    }
+
+    .banner {
+        width: 200%;
+        height: 40vh;
+        display: flex;
+    }
+
+    .banner__titulo {
+        padding: 1em 0;
+        font-size: 28px;
+        text-align: center;
+        line-height: 30px;
+        margin: 1em 2;
+    }
+
+    .item-servicos {
+        margin-bottom: 80px;
+    }
+
+    .item-servicos__titulo {
+        text-align: center;
+        padding: .5em 0;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    .item-servicos__imagem {
+        display: block;
+    }
+
+    .conta {
+        width: 100%;
+        height: 60vh;
+        display: block;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .conta__titulo {
+        padding: 1em 0;
+        font-size: 28px;
+        text-align: center;
+        margin: 1em 2;
     }
 }

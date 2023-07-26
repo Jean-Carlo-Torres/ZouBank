@@ -41,6 +41,10 @@
     text-decoration: none;
 }
 
+.cabecalho-lista__item a:hover {
+    text-decoration: underline;
+}
+
 .cabecalho-lista__link {
     color: var(--preto);
 }
@@ -60,7 +64,7 @@
 
 @media screen and (max-width: 900px) {
     .cabecalho {
-        margin: 2em;
+        margin: 1em 0.5em;
     }
 
     .cabecalho__pesquisa,
@@ -70,5 +74,6 @@
 
     .cabecalho-lista__item-botao {
         display: block;
+        margin: 0 8px;
     }
 }
